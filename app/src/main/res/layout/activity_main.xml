@@ -6,8 +6,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ru.mininn.recyclerindicator.RecyclerIndicator
+    <ru.mininn.recyclerindicator.NewRecyclerIndicator
         android:id="@+id/indicator"
+        android:animateLayoutChanges="true"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="20dp" />
